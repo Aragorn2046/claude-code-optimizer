@@ -1,0 +1,64 @@
+# Claude Code Ignore File
+# Copy this to your project root or ~/.claudeignore
+# Prevents Claude from scanning these files/directories into context
+
+# Binary and media
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.mp3
+*.wav
+*.pdf
+*.zip
+*.tar.gz
+*.ico
+*.woff
+*.woff2
+*.ttf
+*.eot
+*.svg
+
+# Build artifacts
+node_modules/
+dist/
+build/
+.next/
+out/
+__pycache__/
+*.pyc
+*.pyo
+target/
+*.class
+*.jar
+
+# Package lock files (large, not useful for context)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+Cargo.lock
+poetry.lock
+Gemfile.lock
+
+# Cache and temp
+.cache/
+.turbo/
+.parcel-cache/
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Version control internals
+.git/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment files (also a security measure)
+.env
+.env.*
